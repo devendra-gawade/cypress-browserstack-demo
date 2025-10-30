@@ -1,0 +1,33 @@
+{
+  "auth": {
+    "username": "devendragawade_a7XBUS",
+    "access_key": "zsVnCSszQ9C8JX7FnZKA"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "edge",
+      "os": "Windows 11",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.config.js",
+    "cypress_version": "13.17.0",
+    "project_name": "Cypress Sample Project",
+    "build_name": "Cypress Build #1",
+    "parallels": 1,
+    "specs": [
+      "cypress/e2e/sample.cy.js"
+    ],
+    "spec_timeout": 120
+  },
+  "connection_settings": {
+    "local": false
+  },
+  "testObservability": true
+}
